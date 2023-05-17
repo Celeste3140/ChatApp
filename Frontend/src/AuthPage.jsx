@@ -16,9 +16,8 @@ const AuthPage = (props) => {
                 <div className="form-title">Welcome ✿</div>
 
                 <div className="form-subtitle">Set a username to get started</div>
-
+                <div className="form-subtitle">Username:</div>
                 <div className="auth">
-                    <div className="auth-label">Username</div>
                     <input className="auth-input" name="username" />
                     <button className="auth-button" type="submit">
                         Enter
